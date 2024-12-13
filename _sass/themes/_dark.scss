@@ -46,7 +46,7 @@
   /* Topbar */
   --topbar-bg: rgb(27, 27, 30, 0.64);
   --topbar-text-color: var(--text-color);
-  --search-border-color: rgb(55, 55, 55);
+  --search-border-color: rgb(130, 146, 171);
   --search-icon-color: rgb(100, 102, 105);
   --input-focus-border-color: rgb(112, 114, 115);
 
@@ -73,8 +73,8 @@
   --kbd-text-color: #d3d3d3;
   --kbd-bg-color: #242424;
   --prompt-text-color: rgb(216, 212, 212, 0.75);
-  --prompt-tip-bg: rgb(22, 60, 36, 0.64);
-  --prompt-tip-icon-color: rgb(15, 164, 15, 0.81);
+  --prompt-tip-bg: rgba(22, 45, 60, 0.64);
+  --prompt-tip-icon-color: rgba(249, 250, 249, 0.81);
   --prompt-info-bg: rgb(7, 59, 104, 0.8);
   --prompt-info-icon-color: #0075d1;
   --prompt-warning-bg: rgb(90, 69, 3, 0.88);

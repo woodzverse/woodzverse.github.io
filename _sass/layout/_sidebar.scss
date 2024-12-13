@@ -19,6 +19,11 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
   background: var(--sidebar-bg);
   border-right: 1px solid var(--sidebar-border-color);
 
+  background-image: url('/assets/img/sideimg.jpg'); /* 이미지 경로 */
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat; 
+
   /* Hide scrollbar for IE, Edge and Firefox */
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
@@ -55,25 +60,32 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
 
   #avatar {
     display: block;
-    width: 6.5rem;
-    height: 6.5rem;
+    margin: 0 auto;
+    margin-left: -7px;
+    width: 9rem;
+    height: 9rem;
     overflow: hidden;
+    border-radius: 50%; 
     box-shadow: var(--avatar-border-color) 0 0 0 2px;
-    transform: translateZ(0); /* fixed the zoom in Safari */
-
+    transform: translateZ(0); 
+  
     @include bp.sm {
-      width: 7rem;
-      height: 7rem;
+      width: 11rem;
+      height: 11rem;
     }
-
+  
     img {
+      width: 100%; 
+      height: 100%; 
+      object-fit: cover; 
       transition: transform 0.5s;
-
+  
       &:hover {
         transform: scale(1.2);
       }
     }
   }
+  
 
   .profile-wrapper {
     @include mx.mt-mb(2.5rem);
