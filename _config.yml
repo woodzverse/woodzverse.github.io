@@ -16,7 +16,7 @@ timezone: Asia/Seoul
 
 title: woodzverse # the main title
 
-tagline: 우즈의 세상 # it will display as the subtitle
+tagline: better than yesterday # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   
@@ -88,7 +88,7 @@ pageviews:
 #     light — Use the light color scheme
 #     dark — Use the dark color scheme
 #
-theme_mode: dark
+theme_mode: 
 
 # The CDN endpoint for media resources.
 # Notice that once it is assigned, the CDN url

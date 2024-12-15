@@ -111,6 +111,10 @@
   --clipboard-checked-color: #2bcc2b;
   --filepath-text-color: #cacaca;
 
+  #sidebar {
+    background-image: url('/assets/img/sideimg_dark.jpg'); 
+  }
+
   .light {
     display: none;
   }
